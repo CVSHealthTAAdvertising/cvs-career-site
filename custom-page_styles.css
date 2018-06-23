@@ -10,6 +10,13 @@
     display: inherit !important;
 }
 
+#videosVisor .modal-header .close {
+    color: #fff;
+    background-color: transparent;
+    opacity: .8;
+    margin-top: -75px;
+}
+
 
 
 /* Awards & Recognition Page */
