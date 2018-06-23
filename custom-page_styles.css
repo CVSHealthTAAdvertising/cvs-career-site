@@ -2,11 +2,11 @@
 
 /*Modal Overrides */
 
-.youtubes img {
+.video-link img {
     display:none;
 }
 
-.youtubes .show-img {
+.video-link .show-img {
     display: inherit !important;
 }
 
