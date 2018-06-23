@@ -1599,17 +1599,18 @@
     margin: 0 5px;
 }
 
-#diversity a.video-link {
+#diversity .video-link {
     position: relative;
     padding: 0 !important;
     display: block;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 
 
-#diversity a.video-link:before {
+#diversity .video-link:before {
     border-radius: 50%;
     border: 2px solid #fff;
     z-index: 5;
@@ -1624,7 +1625,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-#diversity a.video-link:after {
+#diversity .video-link:after {
         content: "";
     left: 50%;
     position: absolute;
@@ -1638,14 +1639,14 @@
 }
 
 @media only screen and (min-width: 750px) {
-    #diversity a.video-link:before {
+    #diversity .video-link:before {
         height: 95px;
         margin-left: -45px;
         margin-top: -45px;
         width: 95px;
     }
     
-    #diversity a.video-link:after {
+    #diversity .video-link:after {
         border: 26px solid transparent;
     border-left: 41px solid white;
     margin-left: -12px;
@@ -7589,78 +7590,5 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 #indy-dc-hero .hero-content.hero-full-image .mobile-hero {
-    display: none;
-}
-
-/* Career Header Page */
-
-#career-emilia-hero .hero-content.hero-full-image {
-    min-height: 425px;
-    position: relative;
-    background: url(http://jobs.cvshealth.com/Views/Client/8957397e-ed25-45ed-952c-b25bfc5a1850/images/emilia_2.jpg) 20% center/cover no-repeat
-}
-
-@media only screen and (max-width: 750px) {
-        #career-emilia-hero .hero-content.hero-full-image {
-    min-height: 625px;
-    }
-    
-    #career-emilia-hero .hero-content.hero-full-image .text-overlay h1 {
-        padding-left:30px;
-        width:350px;
-    }
-    
-    #career-emilia-hero .hero-content.hero-full-image .text-overlay {
-        left:0px;
-        top:40px;
-    }
-    
-    #career-emilia-hero .hero-content.hero-full-image .text-overlay h1:before {
-    left: 15px !important;
-}
-    
-    #career-emilia-hero .hero-content.hero-full-image .mobile-hero {
-    display: inherit !important;
-}
-}
-
-@media (min-width: 64rem){    
-    #career-emilia-hero .hero-content.hero-full-image .text-overlay {
-        top:40px;
-        max-width: 550px;
-    }
-    
-    #career-emilia-hero .hero-content.hero-full-image .text-overlay h1 {
-        max-width: 550px;
-    }
-    
-    #career-emilia-hero .hero-content.hero-full-image .text-overlay p {
-        width: 500px;
-    }
-}
-
-#career-emilia-hero .hero-content.hero-full-image .text-overlay h1:before {
-    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
-    background-size: 20px;
-    background-repeat: no-repeat;
-    content: "";
-    height: 20px;
-    left: 6px;
-    position: absolute;
-    top: 10;
-    width: 20px; 
-}
-
-#career-emilia-hero .hero-content.hero-full-image .text-overlay h3 {
-    left: 25px;
-    position: relative;
-    margin-bottom: 0;
-}
-
-#career-emilia-hero .hero-content.hero-full-image .text-overlay p {
-    top:10px
-}
-
-#career-emilia-hero .hero-content.hero-full-image .mobile-hero {
     display: none;
 }
