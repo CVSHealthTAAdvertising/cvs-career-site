@@ -2,9 +2,14 @@
 
 /*Modal Overrides */
 
-.youtubes:nth-child(3) {
+.youtubes img {
     display:none;
 }
+
+.youtubes img {
+    display: inherit !important;
+}
+
 
 
 /* Awards & Recognition Page */
