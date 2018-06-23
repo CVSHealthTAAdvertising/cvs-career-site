@@ -2,7 +2,7 @@
 
 /*Modal Overrides */
 
-.youtubes img:nth-child(2) {
+.youtubes:nth-child(3) {
     display:none;
 }
 
