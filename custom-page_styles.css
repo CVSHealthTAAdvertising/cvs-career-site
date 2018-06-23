@@ -1,5 +1,11 @@
 /* CVS Custom Page Stylesheet | HireClix 2018 | creative@hireclix.com */
 
+/*Modal Overrides */
+
+.youtubes img:nth-child(2) {
+    display:none;
+}
+
 
 /* Awards & Recognition Page */
 
