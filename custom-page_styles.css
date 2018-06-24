@@ -10,6 +10,7 @@
     display: inherit !important;
     position: relative;
     opacity: 1;
+    top: 0;
 }
 
 .video-img {
