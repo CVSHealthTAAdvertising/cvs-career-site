@@ -22,6 +22,7 @@ button.close {
     background-color: transparent;
     opacity: .8;
     margin-top: -75px;
+    font-size: 2.5rem;
 }
 
 
@@ -2995,11 +2996,12 @@ button.close {
     color: #d00000;
     font-size: 22px;
     margin-top: 0;
+    text-align: left;
 }
 
 .profile-summary p {
-    color: #666666;
-    font-size: 18px !important;
+    color: #666666 !important;
+    font-size: 14px !important;
     font-weight: normal !important;
     padding: 0 !important;
     margin: 0 0 10px;
