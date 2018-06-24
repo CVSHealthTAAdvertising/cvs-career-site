@@ -8,6 +8,13 @@
 
 .video-img .show-img {
     display: inherit !important;
+    position: relative;
+    opacity: 1;
+}
+
+.video-img {
+    padding-top:0;
+    background-color: transparent;
 }
 
 #videosVisor .modal-header .close {
