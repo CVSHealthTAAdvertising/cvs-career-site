@@ -2,11 +2,11 @@
 
 /*Modal Overrides */
 
-.video-link img {
+.video-img img {
     display:none;
 }
 
-.video-link .show-img {
+.video-img .show-img {
     display: inherit !important;
 }
 
@@ -57,9 +57,6 @@ transition: .5s ease-in-out;
     background-color: #fff;
     padding: 4em;
 }
-
-
-
 
 a.lightbox-close {
 display: block;
