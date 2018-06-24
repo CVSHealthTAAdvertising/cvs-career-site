@@ -17,6 +17,12 @@
     margin-top: -75px;
 }
 
+button.close {
+    color: #fff;
+    background-color: transparent;
+    opacity: .8;
+    margin-top: -75px;
+}
 
 
 /* Awards & Recognition Page */
