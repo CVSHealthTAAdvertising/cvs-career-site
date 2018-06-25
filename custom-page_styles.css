@@ -55,6 +55,7 @@ opacity: 0;
 -o-transition: opacity .5s ease-in-out;
 transition: opacity .5s ease-in-out;
 overflow: hidden;
+z-index: 10000;    
 }
 
 .lightbox-target .profile-wrapper {   
@@ -74,12 +75,49 @@ transition: .5s ease-in-out;
     padding: 4em;
 }
 
+.lightbox-target .mc-wrapper {   
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+height: 70%;
+width:100%;    
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+    background-color: #00334b;
+    color: #fff;
+    padding: 2em;
+}
+
+.lightbox-target .mc-wrapper-shorter {   
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+height: 50%;
+width:100%;    
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+    background-color: #00334b;
+    color: #fff;
+    padding: 2em;
+}
+
+
 a.lightbox-close {
 display: block;
 width:50px;
 height:50px;
 box-sizing: border-box;
-background: white;
+background: transparent;
 color: black;
 text-decoration: none;
 position: absolute;
@@ -94,9 +132,10 @@ transition: .5s ease-in-out;
 a.lightbox-close:before {
 content: "";
 display: block;
-height: 30px;
-width: 1px;
-background: black;
+height: 20px;
+width: 3px;
+border-radius: 100px;    
+background: white;
 position: absolute;
 left: 26px;
 top:10px;
@@ -109,9 +148,10 @@ transform:rotate(45deg);
 a.lightbox-close:after {
 content: "";
 display: block;
-height: 30px;
-width: 1px;
-background: black;
+height: 20px;
+width: 3px;
+border-radius: 100px;
+background: white;
 position: absolute;
 left: 26px;
 top:10px;
@@ -134,9 +174,14 @@ top: 0px;
 }
 
 @media screen and (max-width: 800px) {
-    .lightbox-target .profile-wrapper { 
+    .lightbox-target .profile-wrapper, .lightbox-target .mc-wrapper { 
         height: 100%;
-        padding:1em;
+        padding:.75em;
+    }
+    
+    .lightbox-target .mc-wrapper {
+        height: 75%;
+        padding:.75em;
     }
 }
 
@@ -5713,7 +5758,17 @@ a.fancybox {
 
 .vid-1,  .vid-4, .vid-5,  .vid-6,  .vid-7 {
     padding-top: 48.5%;
-}    
+} 
+
+.vid-2 {
+   padding-top: 52.5%;
+}
+
+ @media screen and (max-width: 550px) {
+     .vid-2 {
+ margin-top:137px
+     }
+}
     
     @media screen and (min-width: 550px) { 
         .team-wrapper>.row>.col-2 {
