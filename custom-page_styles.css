@@ -37,6 +37,10 @@ button.close {
     padding-bottom: 0;
 }
 
+.fancybox .youtubes {
+    margin-bottom:0;
+}
+
 /* Lightbox */
 
 .lightbox-target {
