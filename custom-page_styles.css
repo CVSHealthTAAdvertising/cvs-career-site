@@ -33,6 +33,10 @@ button.close {
     font-size: 2.5rem;
 }
 
+.fancybox.videoWrapper {
+    padding-bottom: 0;
+}
+
 /* Lightbox */
 
 .lightbox-target {
