@@ -5772,6 +5772,10 @@ a.fancybox {
    padding-top: 52.5%;
 }
 
+.vid-3 {
+    padding-top: 52%;
+}
+
  @media screen and (max-width: 550px) {
      .vid-2 {
  margin-top:137px
