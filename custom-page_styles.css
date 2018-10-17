@@ -8190,3 +8190,49 @@ ul.quick-facts li::before, ul.nine-cities li::before {
  #smit .content-wrapper {
         padding: 1em 2em !important;
     }
+#smit .image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#smit .image-container img.center {
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+		#smit .image-container img.right {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+        #smit .image-container img.left {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+#smit .content-wrapper {
+    padding: 3em 7em;
+}
+
+#smit .content-wrapper p {
+    font-weight: 300;
+    line-height: 1.5;
+}
