@@ -8135,3 +8135,51 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #smit .lite-blue_bg {
     background: #b8e3eb;
 }
+
+#smit .image-container {
+		border: 0;
+		display: inline-block; !important
+		position: relative !important;
+    width: 100%;
+	   height: 100%;
+}
+
+
+
+#smit .image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#smit .image-container img.center {
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+		#smit .image-container img.right {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+        #smit .image-container img.left {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
