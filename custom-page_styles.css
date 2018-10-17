@@ -8187,8 +8187,23 @@ ul.quick-facts li::before, ul.nine-cities li::before {
    padding: 0 !important; 
 }
 
-#smit .container.quote_bg  {
-    align-items: center;
-  justify-content: center;
+@media only screen and (max-width: 750px) {
+    #retail .item-2 {
+        order: 2;
+    }
+    
+    #smit .content-wrapper {
+        padding: 1em 2em !important;
+    }
+    
+    #smit .quote_bg .content-wrapper {
+        padding: 2em 2em !important;
+    }
+    
+    #smit .quote_bg .item-2 {
+        flex: 1 1 auto;
+    }
+    
+   
 }
 
