@@ -8136,6 +8136,127 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     background: #b8e3eb;
 }
 
+#smit .quote_bg {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1484_quote-internship.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 500px;   
+}
+
+@media screen and (max-width: 750px) {
+    
+    
+    .quote .container {
+        align-items: flex-end !important;
+    }
+    
+    #smit .quote_bg  p:first-of-type {
+    font-size: 1.25em !important;
+}
+    
+    #smit .quote_bg p:first-of-type:before, #retail .quote_bg p:first-of-type:after {
+         font-size: 4rem !important;
+    }
+}
+
+#smit .quote_bg .content-wrapper {
+    background: rgba(0,0,0,.75);
+    padding: 60px 70px;
+}
+
+#smit .quote_bg  p:first-of-type {
+    font-size: 1.75em;
+}
+
+#smit .quote_bg p:first-of-type:before {
+    display: inline;
+    margin-right: 9px;
+    content: '\201C';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+#smit .quote_bg p:first-of-type:after {
+    display: inline;
+    margin-left: 9px;
+    content: '\201D';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: bottom;
+    font-weight: 500;
+    top: 0.5vw;
+    position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+#smit .quote_bg p:first-of-type:before {
+    margin-left: calc(-3vw - 7px);
+    font-size: 6vw;
+ }
+   
+    #smit .quote_bg p:first-of-type:after {    
+    margin-left: .5rem;
+    font-size: 6vw;
+    }
+}
+
+#smit .orange_bg .content-wrapper .btn-white:hover {
+    color: #cb6500 !important;
+}
+
+#smit .purple_bg {
+    background: #93277e;
+    color: #fff
+}
+
+#smit .purple_bg .content-wrapper .btn-white:hover {
+    color: #93277e !important;
+}
+
+#smit .dark-blue_bg {
+    background: #00334b;
+    color: #fff;
+}
+
+
+
+#smit .container.quote_bg  {
+    align-items: center;
+  justify-content: center;
+}
+
+#smit .item-1 {
+   padding: 0 !important; 
+}
+
+#smit .item-2 {
+    padding: 0 !important;
+    flex: 1;
+}
+
+@media only screen and (max-width: 750px) {
+    #smit .item-2 {
+        order: 2;
+    }
+    
+    #smit .content-wrapper {
+        padding: 1em 2em !important;
+    }
+    
+    #smit .quote_bg .content-wrapper {
+        padding: 2em 2em !important;
+    }
+    
+    #smit .quote_bg .item-2 {
+        flex: 1 1 auto;
+    }
+    
+   
+}
+
+
 #smit .image-container {
 		border: 0;
 		display: inline-block; !important
@@ -8183,50 +8304,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 			-ms-object-fit: cover;
 			object-fit: cover;
 		}
-#smit .item-1 {
-   padding: 0 !important; 
-}
-
- #smit .content-wrapper {
-        padding: 1em 2em !important;
-    }
-#smit .image-container img {
-    height: 100%;
-    width: 100%;
-}
-
-#smit .image-container img.center {
-			-moz-object-position: center;
-			-webkit-object-position: center;
-			-ms-object-position: center;
-			object-position: center;
-            -moz-object-fit: cover;
-			-webkit-object-fit: cover;
-			-ms-object-fit: cover;
-			object-fit: cover;
-		}
-
-		#smit .image-container img.right {
-			-moz-object-position: right;
-			-webkit-object-position: right;
-			-ms-object-position: right;
-			object-position: right;
-            -moz-object-fit: cover;
-			-webkit-object-fit: cover;
-			-ms-object-fit: cover;
-			object-fit: cover;
-		}
-
-        #smit .image-container img.left {
-			-moz-object-position: left;
-			-webkit-object-position: left;
-			-ms-object-position: left;
-			object-position: left;
-            -moz-object-fit: cover;
-			-webkit-object-fit: cover;
-			-ms-object-fit: cover;
-			object-fit: cover;
-		}
 
 #smit .content-wrapper {
     padding: 3em 7em;
@@ -8236,6 +8313,9 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     font-weight: 300;
     line-height: 1.5;
 }
+
+
+
 #smit.text-callout {
     background: #c00;
     margin-top:3em;
@@ -8251,4 +8331,28 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     background: #c00;
     margin-top:0em;
 }
+}
+
+
+#smit.text-callout .icon {
+    width: 53px;
+    height: 40px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1793_retail-store_icon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
+
+#smit .dark-blue_bg ul {
+    list-style: disc;
+}
+
+#smit .dark-blue_bg ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+    font-size:.9em;
+    line-height: 1.5em;
 }
