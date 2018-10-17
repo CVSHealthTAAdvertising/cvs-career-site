@@ -8204,6 +8204,71 @@ ul.quick-facts li::before, ul.nine-cities li::before {
         flex: 1 1 auto;
     }
     
+	#smit .quote_bg {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1484_quote-internship.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 500px;   
+}
+
+@media screen and (max-width: 750px) {
+    
+    
+    .quote .container {
+        align-items: flex-end !important;
+    }
+    
+    #smit .quote_bg  p:first-of-type {
+    font-size: 1.25em !important;
+}
+    
+    #smit .quote_bg p:first-of-type:before, #retail .quote_bg p:first-of-type:after {
+         font-size: 4rem !important;
+    }
+}
+
+#smit .quote_bg .content-wrapper {
+    background: rgba(0,0,0,.75);
+    padding: 60px 70px;
+}
+
+#smit .quote_bg  p:first-of-type {
+    font-size: 1.75em;
+}
+
+#smit .quote_bg p:first-of-type:before {
+    display: inline;
+    margin-right: 9px;
+    content: '\201C';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+#smit .quote_bg p:first-of-type:after {
+    display: inline;
+    margin-left: 9px;
+    content: '\201D';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: bottom;
+    font-weight: 500;
+    top: 0.5vw;
+    position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+#smit .quote_bg p:first-of-type:before {
+    margin-left: calc(-3vw - 7px);
+    font-size: 6vw;
+ }
+   
+    #smit .quote_bg p:first-of-type:after {    
+    margin-left: .5rem;
+    font-size: 6vw;
+    }
+}
    
 }
 
