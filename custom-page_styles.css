@@ -8183,3 +8183,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 			-ms-object-fit: cover;
 			object-fit: cover;
 		}
+#smit .item-1 {
+   padding: 0 !important; 
+}
