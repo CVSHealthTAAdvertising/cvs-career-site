@@ -8573,13 +8573,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     font-size: 1.35em;
 }
 
-#esther .hero-content.hero-full-image .text-overlay p {
-    top:10px
-}
-
-#esther .hero-content.hero-full-image .text-overlay p.name {
-    font-size: 1em;
-}
 
 #esther .hero-content.hero-full-image .mobile-hero {
     display: none;
