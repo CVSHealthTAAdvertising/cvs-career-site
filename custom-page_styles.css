@@ -8463,19 +8463,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 }
         
-
-.spotlight .content-wrapper:nth-of-type(2) h3:before {
-    content: "";
-    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1714_icon-sm-cash.png) no-repeat;
-    background-size: contain;
-    display: inline-block;
-    vertical-align: top;
-    display: inline-block;
-    width: 50px;
-    height: 36px;
-    position: absolute;
-    left: 0;
-}          
+         
         
 @media screen and (min-width: 430px) {
 .spotlight .content-wrapper:nth-of-type(2) h3:before {
