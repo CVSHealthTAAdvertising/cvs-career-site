@@ -8537,34 +8537,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     }
 }
 
-#esther .hero-content.hero-full-image .text-overlay h3:before {
-    display: inline;
-    margin-right: 9px;
-    content: '\201C';
-    font-size: 4.5rem;
-    line-height: 0;
-    vertical-align: -webkit-baseline-middle;
-    font-weight: 500;
-    color: #d1cccc;
-    margin-left: -40px;
-    
-}
-
-#esther .hero-content.hero-full-image .text-overlay p:nth-of-type(1):after {
-    display: inline;
-    margin-left: 9px;
-    content: '\201D';
-    font-size: 4.5rem;
-    line-height: 0;
-    vertical-align: -webkit-baseline-middle;
-    font-weight: 500;
-    top: 0.5vw;
-    position: relative;
-    float: right;
-    margin-top: 3rem;
-    font-style: normal;
-    color: #d1cccc;
-}
 
 #esther .hero-content.hero-full-image .text-overlay h3 {
     left: 25px;
