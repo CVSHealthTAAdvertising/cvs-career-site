@@ -8584,3 +8584,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #esther .hero-content.hero-full-image .mobile-hero {
     display: none;
 }
+#esther-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
