@@ -8521,12 +8521,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 }
 
-@media (min-width: 64rem){    
-    #esther .hero-content.hero-full-image .text-overlay {
-        top:120px;
-        left:80px;
-        max-width: 555px;
-    }
+
     
  
     
@@ -8534,9 +8529,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
         width: 500px;
     }
 }
-
-
-
 
 
 #esther .hero-content.hero-full-image .mobile-hero {
