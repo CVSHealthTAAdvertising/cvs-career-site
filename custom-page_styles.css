@@ -8487,3 +8487,100 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     color: #c00;
 }
 }
+
+#esther .hero-content.hero-full-image {
+    min-height: 525px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1490_quote-david.png) 20% center/cover no-repeat
+}
+
+@media only screen and (max-width: 750px) {
+        #esther .hero-content.hero-full-image {
+    min-height: 955px;
+    }
+    
+    #esther .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #esther .hero-content.hero-full-image .text-overlay h3 {
+        width:325px;
+    }
+    
+    #esther .hero-content.hero-full-image .text-overlay {
+        left:0px;
+    }
+    
+    #esther .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
+}
+    
+    #esther .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
+}
+}
+
+@media (min-width: 64rem){    
+    #esther .hero-content.hero-full-image .text-overlay {
+        top:120px;
+        left:80px;
+        max-width: 555px;
+    }
+    
+    #esther .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 550px;
+    }
+    
+    #esther .hero-content.hero-full-image .text-overlay p {
+        width: 500px;
+    }
+}
+
+#esther .hero-content.hero-full-image .text-overlay h3:before {
+    display: inline;
+    margin-right: 9px;
+    content: '\201C';
+    font-size: 4.5rem;
+    line-height: 0;
+    vertical-align: -webkit-baseline-middle;
+    font-weight: 500;
+    color: #d1cccc;
+    margin-left: -40px;
+    
+}
+
+#esther .hero-content.hero-full-image .text-overlay p:nth-of-type(1):after {
+    display: inline;
+    margin-left: 9px;
+    content: '\201D';
+    font-size: 4.5rem;
+    line-height: 0;
+    vertical-align: -webkit-baseline-middle;
+    font-weight: 500;
+    top: 0.5vw;
+    position: relative;
+    float: right;
+    margin-top: 3rem;
+    font-style: normal;
+    color: #d1cccc;
+}
+
+#esther .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 1.35em;
+}
+
+#esther .hero-content.hero-full-image .text-overlay p {
+    top:10px
+}
+
+#esther .hero-content.hero-full-image .text-overlay p.name {
+    font-size: 1em;
+}
+
+#esther .hero-content.hero-full-image .mobile-hero {
+    display: none;
+}
