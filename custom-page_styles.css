@@ -8360,7 +8360,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     color: #fff;
     margin: 0;
     line-height: 50px;
-    text-align: center;
+    text-align: left;
 }
 
 .spotlight .content-wrapper:nth-of-type(1) {
