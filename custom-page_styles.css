@@ -8334,16 +8334,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 
-#smit.text-callout .icon {
-    width: 53px;
-    height: 40px;
-    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1793_retail-store_icon.png);
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: contain;
-    vertical-align: sub;
-    margin: 0 5px;
-}
+
 
 #smit .dark-blue_bg ul {
     list-style: disc;
@@ -8433,17 +8424,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 }
     
-
-.spotlight .content-wrapper:nth-of-type(1) h3:before {
-    content: "";
-    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1715_icon-sm-people-v2.png) no-repeat;
-    background-size: contain;
-    display: inline-block;
-    width: 50px;
-    height: 36px;
-    position: absolute;
-    left: 0;
-}    
     
 
 @media screen and (min-width: 430px) {
