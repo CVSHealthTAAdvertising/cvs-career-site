@@ -8360,7 +8360,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     color: #fff;
     margin: 0;
     line-height: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .spotlight .content-wrapper:nth-of-type(1) {
@@ -8393,12 +8393,12 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 .spotlight p {
     color: #000000;
     clear: both;
-    text-align: center;
+    text-align: left;
 }
 
 
 .spotlight .content-wrapper p {
-    text-align: center;
+    text-align: left;
     width: calc(100% - 16px);
 }
 
