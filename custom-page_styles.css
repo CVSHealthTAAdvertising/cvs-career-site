@@ -8393,7 +8393,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 .spotlight p {
     color: #000000;
     clear: both;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -8550,9 +8550,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     margin-bottom: 0;
 }
 
-#esther-hero .hero-content.hero-full-image .text-overlay p {
-    top:10px
-}
+
 
 #esther-hero .hero-content.hero-full-image .mobile-hero {
     display: none;
