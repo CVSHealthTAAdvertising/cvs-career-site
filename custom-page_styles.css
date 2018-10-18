@@ -8393,12 +8393,12 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 .spotlight p {
     color: #000000;
     clear: both;
-    text-align: left;
+    text-align: center;
 }
 
 
 .spotlight .content-wrapper p {
-    text-align: left;
+    text-align: center;
     width: calc(100% - 16px);
 }
 
