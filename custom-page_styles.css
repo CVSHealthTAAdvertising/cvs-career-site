@@ -8524,11 +8524,11 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     }
     
     #esther-hero .hero-content.hero-full-image .text-overlay h1 {
-        max-width: 850px;
+        max-width: 800px;
     }
     
     #esther-hero .hero-content.hero-full-image .text-overlay p {
-        width: 300px;
+        width: 600px;
     }
 }
 
