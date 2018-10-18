@@ -8499,7 +8499,10 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     min-height: 955px;
     }
     
-    
+    #esther .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
     
     #esther .hero-content.hero-full-image .text-overlay h3 {
         width:325px;
@@ -8535,12 +8538,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 
-#esther .hero-content.hero-full-image .text-overlay h3 {
-    left: 25px;
-    position: relative;
-    margin-bottom: 0;
-    font-size: 1.35em;
-}
+
 
 
 #esther .hero-content.hero-full-image .mobile-hero {
