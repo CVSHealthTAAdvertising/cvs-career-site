@@ -8356,8 +8356,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 
 .spotlight>h2 {
-    background: #c00;
-    color: #fff;
+    background: #fff;
+    color: #c00;
     margin: 0;
     line-height: 50px;
     text-align: center;
@@ -8489,6 +8489,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 #spotlight .red_bg {
-    background: #fff;
-    color: #c00
+    background: #c00;
+    color: #fff;
 }
