@@ -8548,3 +8548,295 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #esther-hero .hero-content.hero-full-image .mobile-hero {
     display: none;
 }
+
+
+#esther .lite-blue_bg {
+    background: #b8e3eb;
+}
+
+#esther .red_bg {
+    background: #c00;
+    color: #fff
+}
+
+#esther .orange_bg {
+    background: #cb6500;
+    color: #fff
+}
+
+#esther .quote_bg {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1484_quote-internship.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 500px;   
+}
+
+@media screen and (max-width: 750px) {
+    
+    #esther.quote {
+        padding-bottom: 20em;
+    }
+    
+    #diversity.quote {
+        padding-bottom: 20em;
+    }
+    
+    .quote .container {
+        align-items: flex-end !important;
+    }
+    
+    #esther .quote_bg  p:first-of-type {
+    font-size: 1.25em !important;
+}
+    
+    #esther .quote_bg p:first-of-type:before, #esther .quote_bg p:first-of-type:after {
+         font-size: 4rem !important;
+    }
+}
+
+#esther .quote_bg .content-wrapper {
+    background: rgba(0,0,0,.75);
+    padding: 60px 70px;
+}
+
+#esther .quote_bg  p:first-of-type {
+    font-size: 1.75em;
+}
+
+#esther .quote_bg p:first-of-type:before {
+    display: inline;
+    margin-right: 9px;
+    content: '\201C';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+#esther .quote_bg p:first-of-type:after {
+    display: inline;
+    margin-left: 9px;
+    content: '\201D';
+    font-size: 7rem;
+    line-height: 0;
+    vertical-align: bottom;
+    font-weight: 500;
+    top: 0.5vw;
+    position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+#esther .quote_bg p:first-of-type:before {
+    margin-left: calc(-3vw - 7px);
+    font-size: 6vw;
+ }
+   
+    #esther .quote_bg p:first-of-type:after {    
+    margin-left: .5rem;
+    font-size: 6vw;
+    }
+}
+
+#esther .orange_bg .content-wrapper .btn-white:hover {
+    color: #cb6500 !important;
+}
+
+#esther .purple_bg {
+    background: #93277e;
+    color: #fff
+}
+
+#esther .purple_bg .content-wrapper .btn-white:hover {
+    color: #93277e !important;
+}
+
+
+#esther .container.quote_bg  {
+    align-items: center;
+  justify-content: center;
+}
+
+#esther .item-1 {
+   padding: 0 !important; 
+}
+
+#esther .item-2 {
+    padding: 0 !important;
+    flex: 1;
+}
+
+@media only screen and (max-width: 750px) {
+    #esther .item-2 {
+        order: 2;
+    }
+    
+    #esther .content-wrapper {
+        padding: 1em 2em !important;
+    }
+    
+    #esther .quote_bg .content-wrapper {
+        padding: 2em 2em !important;
+    }
+    
+    #esther .quote_bg .item-2 {
+        flex: 1 1 auto;
+    }
+    
+   
+}
+
+
+#esther .image-container {
+		border: 0;
+		display: inline-block; !important
+		position: relative !important;
+    width: 100%;
+	   height: 100%;
+}
+
+
+
+#esther .image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#esther .image-container img.center {
+			-moz-object-position: center;
+			-webkit-object-position: center;
+			-ms-object-position: center;
+			object-position: center;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+		#esther .image-container img.right {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+        #esther .image-container img.left {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+            -moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			object-fit: cover;
+		}
+
+#esther .content-wrapper {
+    padding: 3em 7em;
+}
+
+#esther .content-wrapper p {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+
+#esther.text-callout {
+    background: #c00;
+}
+
+@media only screen and (min-width: 750px) {
+    #esther.text-callout .icon {
+    width: 56px !important;
+    height: 70px !important;
+    }
+}
+
+#esther.text-callout .icon {
+    width: 32px;
+    height: 40px;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1483_internship_icon2.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin: 0 5px;
+}
+
+.visibleNearby {
+  width: 100%;
+  background: #e9e9e9;
+  color: #000;
+  /*padding-top: 25px;*/
+}
+.rsDefault,
+.rsDefault .rsOverflow,
+.rsDefault .rsSlide,
+.rsDefault .rsVideoFrameHolder,
+.rsDefault .rsThumbs {
+	background: #e9e9e9;
+}
+.visibleNearby .rsGCaption {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 12px 0 16px;
+  background: #e9e9e9;
+  color: #000;
+  width: 100%;
+  position: static;
+  float: left;
+  left: auto;
+  bottom: auto;
+  text-align: center;
+}
+.visibleNearby .rsGCaption span {
+  display: block;
+  clear: both;
+  color: #bbb;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+
+/* Scaling transforms */
+.visibleNearby .rsSlide img {
+  opacity: 0.45;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+  -webkit-transform: scale(0.9);  
+  -moz-transform: scale(0.9); 
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.visibleNearby .rsActiveSlide img {
+  opacity: 1;
+  -webkit-transform: scale(1);  
+  -moz-transform: scale(1); 
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+/* Non-linear resizing on smaller screens */
+@media screen and (min-width: 0px) and (max-width: 900px) { 
+  #gallery-1 {
+    padding: 12px 0 12px;
+  }
+  #gallery-1 .rsOverflow,
+  .royalSlider#gallery-1 {
+    height: 400px !important;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px) { 
+  #gallery-1 .rsOverflow,
+  .royalSlider#gallery-1 {
+    height: 300px !important;
+  }
