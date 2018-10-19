@@ -8489,6 +8489,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 #spotlight .red_bg {
-    background: #c00;
-    color: #fff
+    background: #fff;
+    color: #c00
 }
