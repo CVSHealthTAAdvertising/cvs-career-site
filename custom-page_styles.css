@@ -8493,26 +8493,3 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     color: #fff;
 }
 
-#end {
-    background: #e9e9e9;
-}
-
-#end .body-copy {
-    background: #fff;
-    padding: 32px;
-}
-
-#end .body-copy ul {
-    list-style: disc;
-}
-
-#end .body-copy ul.indent {
-    margin-right: 0px;
-    padding-left: 30px;
-    padding-right: 0px;
-}
-
-#end .body-copy a {
-    color: #c00;
-}
-
