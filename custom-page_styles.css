@@ -8501,3 +8501,32 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     background: #fff;
     padding: 32px;
 }
+
+#end .body-copy ul {
+    list-style: disc;
+}
+
+#end .body-copy ul.indent {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+#end .body-copy a {
+    color: #c00;
+}
+
+
+@media only screen and (min-width: 750px) {
+    #end .first {
+        padding-left: 0 !important;
+    }
+
+    #end .second {
+        padding-right: 0 !important;
+    }
+    
+    #end .full-width {
+        padding: 0 !important;
+    }
+}
