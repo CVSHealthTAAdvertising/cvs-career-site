@@ -8530,7 +8530,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
         padding: 0 !important;
     }
 }
-#mc .color-box-teal {
+
+#end .color-box-teal {
     background-color: #37baab;
     color: #fff;
     margin: 0 0 32px;
@@ -8562,4 +8563,409 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #end .color-box-teal .content-wrapper h3, #end .color-box-red .content-wrapper h3 {
      font-size: 1.75em;
      line-height: 1.25em;
+}
+
+#end .color-box-teal>div.image-wrapper {
+    float: left;
+    padding: 2px;
+    width: 36%;
+    position: relative;
+}
+
+#end .color-box-red>div.image-wrapper {
+    float: left;
+    position: absolute !important;
+    top: 55px;
+    right: 20px;
+    padding: 0 !important;
+}
+
+#end .color-box-teal .content-wrapper a, #end .color-box-red .content-wrapper a {
+    color: #fff;
+}
+
+#end .color-box-teal .content-wrapper a:hover, #end .color-box-red .content-wrapper a:hover {
+    text-decoration: underline;
+}
+
+#end .color-box-teal .image-wrapper {
+    padding-top:35px !important;
+}
+
+#end .color-box-red .image-wrapper {
+    padding-top: 50px !important;
+}
+
+#end .color-box-teal .image-wrapper img, #end .color-box-red .image-wrapper img  {
+    width: 100%;
+}
+
+#end .related-content {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+#end .related-content .related-content-img-wrap {
+    width: 35%;
+    float: left;
+}
+
+@media only screen and (max-width: 750px) {
+    #end .related-content .related-content-img-wrap {
+        width: 100% !important;
+    }
+    #end .related-content .related-content-link-wrap {
+        width: 100% !important;
+        padding-top: 0 !important;
+    }
+}
+
+#end .related-content .related-content-img-wrap img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#end .related-content .related-content-link-wrap {
+    display: inline-block;
+    width: calc(65% - 64px);
+    padding: 40px 32px 0 32px;
+}
+
+#end .related-content .related-content-link-wrap h4 {
+    font-size: 1.75em;
+    line-height: 1em;
+}
+
+#end .related-content .related-content-link-wrap p {
+    color: #646464;
+}
+
+#end .related-content .related-content-link-wrap a {
+    color:#c00;
+}
+
+#end .related-content .related-content-link-wrap a:hover {
+    text-decoration: underline;
+}
+
+#end .minute-stats {
+    background: #c00 url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1557_check-up.jpg) no-repeat;
+    background-size: 480px;
+    padding: 314px 0 0;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+@media screen and (min-width: 480px) {
+#end .minute-stats {
+    background-size: 680px;
+    padding: 445px 0 0;
+}
+}
+
+@media screen and (min-width: 680px) {
+#end .minute-stats {
+    padding: 0 0 0 35%;
+    background-position: -200px top;
+}
+}
+
+@media screen and (min-width: 800px) {
+#end .minute-stats {
+    margin: 0 10px 20px;
+}
+}
+
+@media screen and (min-width: 1020px) {
+#end .minute-stats {
+    background-position: left top;
+    padding-left: 490px;
+    margin: 0 1.5873% 20px;
+}
+}
+
+
+
+
+@media screen and (min-width: 680px) {
+#end .minute-stats ul {
+    padding: 25px 35px 25px 25px !important;
+}
+}
+
+#end .minute-stats ul {
+    background: #c00;
+    padding: 25px 20px;
+   display: table;
+    width: 100%;
+}
+
+.minute-stats li:first-of-type {
+    border-top: 2px solid #000;
+}
+
+.minute-stats li {
+    padding: 18px 0 20px;
+    border-bottom: 2px solid #000;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(2) {
+    border-right: 1px solid #000;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(n+2) {
+    width: 50%;
+    float: left;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:last-of-type {
+    border-left: 1px solid #000;
+}
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:nth-child(n+2) {
+    width: 50%;
+    float: left;
+}
+}
+
+.minute-stats li:first-of-type:before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1558_stat1.png);
+}
+
+.minute-stats li:nth-child(2):before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1559_stat2.png);
+}
+
+.minute-stats li:last-of-type:before {
+    content: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1560_stat3.png);
+}
+
+@media screen and (min-width: 680px) {
+.minute-stats li:before {
+    height: 132px;
+}
+}
+
+.minute-stats li:before {
+    display: block;
+}
+
+
+#tweet-my-jobs {
+    display: none;
+    margin: 0 1.5873% 32px;
+}
+
+
+@media screen and (min-width: 1020px) {
+#tweet-my-jobs {
+    display: block;
+}
+}
+
+@media screen and (min-width: 1020px) {
+.careerarc-mobile {
+    display: none;
+}
+}
+
+@media screen and (min-width: 800px) {
+.minute-home-content {
+    display: flex;
+}
+}
+
+@media screen and (min-width: 800px) {
+.minute-home-content div {
+    width: 24%;
+    margin: 1%;
+    padding: 0;
+}
+}
+
+.minute-home-content p {
+    padding-top:.5em;
+}
+
+.minute-home-content a {
+    text-decoration: underline;
+}
+
+#end .btn-wrapper {
+    text-align: center;
+} 
+
+#end .body-copy.red {
+    background: #c00;
+    color: #fff;
+}
+
+#end .body-copy.red .btn {
+    max-width: 320px;
+}
+
+.college-tables {
+    margin: 0 0 1.25em;
+    max-width: 490px;
+}
+
+.college-tables table {
+    width: 100%;
+    margin: 0 0 1.25em;
+}
+
+.college-tables th {
+    color: #fff;
+    background: #c00;
+    border: 1px solid #c00;
+    text-align: left;
+}
+
+.college-tables th, .college-tables td {
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.college-tables td {
+    width: 50%;
+    border: 1px solid #999;
+}
+
+.sponsors {
+    width: 100%;
+    list-style: none;
+    padding: 20px 0 1px;
+    text-align: center;
+    font-size: 0;
+}
+
+
+.sponsors li.sponsor1 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1561_sponsor1.png) no-repeat center top;
+    height: 104px;
+}
+
+
+    
+.sponsors li.sponsor2 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1562_sponsor2.png) no-repeat center top;
+    height: 140px;
+}
+
+
+
+.sponsors li.sponsor3 {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1563_sponsor3.png) no-repeat center top;
+    height: 140px;
+}
+
+
+    
+
+.sponsors li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+.sponsors li {
+    display: inline-block;
+    width: 33.33%;
+    height: 140px !important;
+}
+}
+
+
+.end-menu {
+    background: #37baab;
+    padding: 20px 125px 0;
+    margin:1em auto 0;
+}
+
+@media screen and (min-width: 800px) {
+.end-menu {
+    margin:1em auto 0;
+    padding: 20px 175px 0;
+}
+}
+
+
+
+@media screen and (min-width: 800px) {
+.end-menu ul {
+    text-align: center;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+}
+
+
+.end-menu li {
+    display: block;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 550px) {
+.end-menu li {
+    font-size: 18px;
+}
+}
+
+@media screen and (min-width: 800px) {
+.end-menu li {
+    margin: 0 30px;
+}
+}
+
+
+.end-menu a.mc-active {
+    border-bottom: 5px solid #c00;
+}
+
+.end-menu a {
+    display: inline-block;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+}
+
+@media screen and (min-width: 800px) {
+.end-menu a {
+    padding-bottom: 1em;
+    margin-bottom: 0;
+}
 }
