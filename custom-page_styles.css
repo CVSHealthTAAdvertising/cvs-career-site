@@ -8530,3 +8530,36 @@ ul.quick-facts li::before, ul.nine-cities li::before {
         padding: 0 !important;
     }
 }
+#mc .color-box-teal {
+    background-color: #37baab;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+}
+
+#end .color-box-red {
+    background-color: #c00;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+    position: relative;
+}
+
+#end .color-box-teal>div.content-wrapper {
+    float: right;
+    padding: 32px 32px 0 0;
+    width: calc(64% - 32px);
+    min-height: 255px;
+}
+
+#end .color-box-red>div.content-wrapper {
+    float: none;
+    padding: 32px 32px 0px 20px;
+    width: 100%;
+    min-height: 235px;
+}
+
+#end .color-box-teal .content-wrapper h3, #end .color-box-red .content-wrapper h3 {
+     font-size: 1.75em;
+     line-height: 1.25em;
+}
