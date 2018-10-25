@@ -8500,7 +8500,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     float: left;
     width: 33.33%;
     padding: 50px;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
