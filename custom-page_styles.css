@@ -8532,3 +8532,14 @@ div {
 	margin-bottom: 0.625rem!important;
 	color: rgb(80, 98, 104);
 }
+
+.custom-content {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	display: block;
+}
