@@ -8497,195 +8497,38 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 /* Pharm Tech Page Test*/
 
 @media (min-width: 64rem)
-.career-areas {
-	margin: 0 15px 15px 25px;
+#home-page .custom-content .item-1, .videos .item-1 {
+	width: 33%;
 }
 
-@media (min-width: 1024px)
-.career-areas {
-	display: flex!important;
+.bg-gray {
+	background-color: #D1CDCD;
 }
 
-.career-areas {
-	transition: all 200ms;
-	position: relative;
-	max-width: 100vw;
-	box-sizing: border-box;
+.mt-3 {
+	margin-top: 1.25rem!important;
 }
 
-.space-between {
-	 -webkit-box-pack: justify;
-	 justify-content: space-between;
-	max-width: 100vw;
-	box-sizing: border-box;
-}
-
-.container {
-	flex-wrap: wrap;
-	max-width: 100vw;
-	box-sizing: border-box;
+.px-3 {
+	padding-left: 1.25rem!important;
+	padding-right: 1.25rem!important;
 }
 
 @media (min-width: 64rem)
-.tabs-expand .item-1 {
+.item-1 {
 	-webkit-box-flex: 1;
-	flex: 1 1 125px;
+	flex: 1;
 }
 
-@media (min-width: 64rem)
-.tab {
-	border-bottom: none;
-	min-height: 125px;
-}
-
-.tab {
-	background-color: #9ab7ca;
+* {
 	box-sizing: border-box;
 }
 
-element.style {
-	opacity: 1;
+div {
+	display: block;
 }
 
-@media (min-width: 64rem)
-.tab .body-font {
-	height: 107px;
-	box-sizing: border-box;
-}
-
-@media (min-width: 80rem)
-.tab>h3 {
-	word-break: normal;
-}
-
-@media (min-width: 64rem)
-.tab>h3 {
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-top: 25px;
-	 width: 90%;
-}
-
-.tab>h3 {
-	color: #666666;
-	font-size: 0.9375rem;
-	font-weight: 600;
-	position: relative;
-	text-align: center;
-	text-transform: uppercase;
-	box-sizing: border-box;
-}
-
-.body-font {
-	font-family: Helvetica, Arial, sans-serif;
-	max-width: 100vw;
-	box-sizing: border-box;
-}
-
-.students-grid p {
-	padding: 0;
-	max-width: 100vw;
-	box-sizing: border-box;
-}
-
-@media (min-width: 64rem)
-.circle-plus {
-	display: inherit;
-}
-
-.circle-plus {
-	bottom: 10px;
-	line-height: normal;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	text-align: center;
-	max-width: 100vw;
-	box-sizing: border-box;
-}
-
-.circle-plus .fa {
-	color: #fff;
-}
-
-.fa-2x {
-	font-size: 2em;
-}
-
-.fa {
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	max-width: 100vw;
-	box-sizing: border-box;
-}
-
-@media (min-width: 64rem)
-.career-areas .career-expand {
-	position: absolute;
-	width: calc(100% - 15px);
-	top: 100%;
-	left: 0;
-	z-index: 9997;
-}
-
-.career-areas .career-expand {
-	transition: all 500ms;
-	max-width: 100vw;
-	box-sizing: border-box;
-}
-
-element.style {
-	visibility: visible;
-}
-
-.tabs-expand .expand-inner {
-	padding: 0;
-	max-width: 100vw;
-	box-sizing: border-box
-}
-
-.students-grid .expand-inner {
-	background-color: #fff;
-	max-width: 100vw;
-	box-sizing: border-box
-}
-
-.expand-inner {
-	cursor: initial;
-	position: relative;
-	transition: visibility 2500ms;
-	max-width: 100vw;
-	box-sizing: border-box
-}
-
-.container {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.ui-tabs {
-	margin: 25px 0 0 0;
-	max-width: 100vw;
-	box-sizing: border-box
-}
-
-.ui-tabs-nav {
-	text-align: center!important;
-	list-style: none;
-	padding: 0;
-	overflow: hidden;
-	font-size: 1rem;
-	position: relative;
-	max-width: 100vw;
-	box-sizing: border-box
-}
-
-.ui-tabs-panel {
-	padding: 25px;
-	background-color: #efefef;
- 	width: 100%;
-	max-width: 100vw;
-	box-sizing: border-box
+.mb-2 {
+	margin-bottom: 0.625rem!important;
+	color: rgb(80, 98, 104);
 }
