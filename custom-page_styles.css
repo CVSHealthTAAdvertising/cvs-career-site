@@ -8496,3 +8496,23 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 /* Pharm Tech Page Test*/
 
+.view-article ul.posts-list li {
+    height: auto;
+    float: none;
+    width:100%;
+    -webkit-column-break-inside: avoid; 
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    display:table;
+    margin-right: 20px
+}
+      
+@media screen and (min-width: 800px) {
+    ul.posts-list {
+        column-count: 3; 
+    }
+}
+
+ul.posts-list img {
+    width: 100%;
+}
