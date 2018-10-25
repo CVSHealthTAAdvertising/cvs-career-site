@@ -8504,7 +8504,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     text-align: center;
     font-size: 25px;
     cursor: pointer;
-    color: white;
+    color: black;
+     background-color: blue
 }
 
 .containerTab {
