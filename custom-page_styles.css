@@ -8496,7 +8496,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 /* Pharm Tech Page*/
 
-.blocks {
+.column {
     float: left;
     width: 33.33%;
     padding: 50px;
@@ -8506,14 +8506,14 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     color: white;
 }
 
-.blockscontainerTab {
+.containerTab {
     padding: 20px;
     color: white;
 }
 
 /* Clear floats after the columns */
 .row:after {
-    blocks: "";
+    content: "";
     display: table;
     clear: both;
 }
