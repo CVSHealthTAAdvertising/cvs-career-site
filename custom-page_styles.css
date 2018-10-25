@@ -8513,7 +8513,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 /* Clear floats after the columns */
 .row:after {
-    content: "";
+    blocks: "";
     display: table;
     clear: both;
 }
