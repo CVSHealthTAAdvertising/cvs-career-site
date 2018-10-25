@@ -8497,11 +8497,13 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 /* Pharm Tech Page Test*/
 
 @media (min-width: 64rem)
-.career-areas { 	margin: 0 15px 15px 25px;
+.career-areas {
+	margin: 0 15px 15px 25px;
 }
 
 @media (min-width: 1024px)
-.career-areas { 	display: flex!important;
+.career-areas {
+	display: flex!important;
 }
 
 .career-areas {
@@ -8526,7 +8528,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 @media (min-width: 64rem)
 .tabs-expand .item-1 {
-	-webkit-box-flex: 1;    	flex: 1 1 125px;
+	-webkit-box-flex: 1;
+	flex: 1 1 125px;
 }
 
 @media (min-width: 64rem)
@@ -8545,7 +8548,8 @@ element.style {
 }
 
 @media (min-width: 64rem)
-.tab .body-font { 	height: 107px;
+.tab .body-font {
+	height: 107px;
 	box-sizing: border-box;
 }
 
