@@ -8498,9 +8498,9 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 .column {
     float: left;
-    width: 25%;
+    width: 24%;
     padding: 50px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
