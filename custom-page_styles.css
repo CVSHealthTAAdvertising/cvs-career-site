@@ -8538,7 +8538,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 /*  COLUMN SETUP  */
 .col {
 	display: block;
-	float:left;
+	float:center;
 	margin: 1% 0 1% 1.6%;
 }
 .col:first-child { margin-left: 0; }
