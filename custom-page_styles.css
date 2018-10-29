@@ -8533,3 +8533,15 @@ pt-hero .hero-content.hero-full-image {
     top: 10;
     width: 20px; 
 }
+#pt .lite-blue_bg {
+    background: #b8e3eb;
+}
+
+#pt .quote_bg {
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1484_quote-internship.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 500px;   
+}
+
+@media screen and (max-width: 750px) {
