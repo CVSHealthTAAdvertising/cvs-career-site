@@ -8503,7 +8503,7 @@ pt-hero .hero-content.hero-full-image {
 }
 
 @media only screen and (max-width: 750px) {
-        #smit-hero .hero-content.hero-full-image {
+        #pt-hero .hero-content.hero-full-image {
     min-height: 200px;
     }
     
