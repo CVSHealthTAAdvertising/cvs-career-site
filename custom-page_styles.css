@@ -49,6 +49,14 @@ button.close {
     margin-bottom: 0;
 }
 
+#pt .youtubes {
+    background-color: #000;
+    margin-bottom: 10px;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
 
 
 /* Lightbox */
