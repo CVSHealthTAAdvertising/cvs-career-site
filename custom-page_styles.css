@@ -8565,3 +8565,5 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #pt-hero .hero-content.hero-full-image .mobile-hero {
     display: none;
 }
+@media (min-width: 30rem)
+.hero-content.hero-full-image 
