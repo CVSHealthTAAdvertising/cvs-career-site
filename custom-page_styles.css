@@ -8496,7 +8496,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 /* Pharm Tech Page*/
 
-#pt-hero .hero-content.hero-full-image {
+pt-hero .hero-content.hero-full-image {
     min-height: 325px;
     position: relative;
     background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_3963_smit-header.jpg) 20% center/cover no-repeat
@@ -8517,12 +8517,12 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 @media (min-width: 64rem){    
-    #smit-hero .hero-content.hero-full-image .text-overlay {
+    #pt-hero .hero-content.hero-full-image .text-overlay {
         top:100px;
     }
 }
 
-#smit-hero .hero-content.hero-full-image .text-overlay h1:before {
+#pt-hero .hero-content.hero-full-image .text-overlay h1:before {
     background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
     background-size: 20px;
     background-repeat: no-repeat;
