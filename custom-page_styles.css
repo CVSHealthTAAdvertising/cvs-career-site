@@ -50,12 +50,7 @@ button.close {
 }
 
 #pt .youtubes {
-    background-color: #000;
-    margin-bottom: 10px;
-    position: relative;
-    padding-top: 56.25%;
-    overflow: hidden;
-    cursor: pointer;
+    margin-bottom: 0;
 }
 
 
