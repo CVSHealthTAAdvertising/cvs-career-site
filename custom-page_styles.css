@@ -8496,7 +8496,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 /* Pharm Tech Page*/
 
-pt-hero .hero-content.hero-full-image {
+#pt-hero. hero-content.hero-full-image {
     min-height: 325px;
     position: relative;
     background: url(https://recruitstagep.smashfly.com/SmashFlyMedia/Images/14319/14319_707_hero-pt.jpg) 20% center/cover no-repeat
