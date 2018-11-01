@@ -8683,6 +8683,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 @media (min-width: 576px)
 .card-columns {
 	column-count: 3;
+	column-gap: 1.25rem;
 	display: block;
 	}
 	
