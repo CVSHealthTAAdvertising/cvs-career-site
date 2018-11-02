@@ -8680,7 +8680,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 	}
 	
 
-/*! CSS testing for blog */
+	/*! CSS testing for blog */
 article {
   display: block;
 }
@@ -8717,7 +8717,7 @@ a,
 a:visited {
   color: #ed1c24;
   text-decoration: none;
-  font-family: "antenna-bold", "antenna-regular", "Helvetica Neue", Helvetica,
+  font-family: Helvetica Neue", Helvetica,
     Arial, sans-serif;
 }
 a:hover,
@@ -8728,7 +8728,7 @@ h3,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "antenna-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 h3 {
@@ -8852,7 +8852,8 @@ h3 {
     page-break-after: avoid;
   }
 }
-/*! CSS Used from: https://www.nestlepurinacareers.com/css/blog.css */
+
+
 .blog .main {
   padding-top: 0;
 }
@@ -8912,7 +8913,7 @@ h3 {
 .search-blog-wrap .tags-toggle-wrap p {
   color: #fff;
   margin: 0;
-  font-family: "antenna-bold", "antenna-regular", "Helvetica Neue", Helvetica,
+  font-family: "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
@@ -9007,7 +9008,7 @@ h3 {
 .blogFeed a {
   color: #4a4542;
   height: 100%;
-  font-family: "antenna-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: block;
 }
 @media only screen and (min-width: 960px) {
@@ -9017,7 +9018,7 @@ h3 {
 }
 .blogFeed__articleTitle {
   margin: 10px 0 0 0;
-  font-family: "antenna-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 22px;
   text-align: left;
@@ -9025,7 +9026,7 @@ h3 {
 .blogFeed__category {
   color: #ed1c24;
   margin: 0;
-  font-family: "antenna-bold", "antenna-regular", "Helvetica Neue", Helvetica,
+  font-family: "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   text-transform: uppercase;
   font-size: 13px;
@@ -9118,89 +9119,3 @@ h3 {
 .pagination ul li.active a {
   color: #fff;
 }
-/*! CSS Used fontfaces */
-@font-face {
-  font-family: "antenna-bold";
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot");
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot#iefix")
-      format("embedded-opentype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.woff")
-      format("woff"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.ttf")
-      format("truetype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.svg#AntennaBold")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "antenna-bold";
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot");
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot#iefix")
-      format("embedded-opentype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.woff")
-      format("woff"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.ttf")
-      format("truetype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.svg#AntennaBold")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "antenna-bold";
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot");
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.woff")
-      format("woff"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.ttf")
-      format("truetype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-bold.svg#AntennaBold")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "antenna-regular";
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot");
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot#iefix")
-      format("embedded-opentype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.woff")
-      format("woff"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.ttf")
-      format("truetype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.svg#AntennaRegular")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "antenna-regular";
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot");
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot#iefix")
-      format("embedded-opentype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.woff")
-      format("woff"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.ttf")
-      format("truetype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.svg#AntennaRegular")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "antenna-regular";
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot");
-  src: url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.woff")
-      format("woff"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.ttf")
-      format("truetype"),
-    url("https://www.nestlepurinacareers.com/library/fonts/antenna-regular.svg#AntennaRegular")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-	
