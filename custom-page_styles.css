@@ -8679,9 +8679,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#000000 98%);
 	}
 	
-/* BL*/
 
-/*! CSS testinf for blog */
+/*! CSS testing for blog */
 article {
   display: block;
 }
