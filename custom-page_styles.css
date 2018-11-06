@@ -8683,7 +8683,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 /* Blog Home Page */
 
 #bl-hero .hero-content.hero-full-image {
-    min-height: 425px;
+    min-height: 500px;
     position: relative;
     background: url(https://recruitstagep.smashfly.com/SmashFlyMedia/Images/14319/14319_722_hero-blog.png) 20% center/cover no-repeat
 }
@@ -8723,6 +8723,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     
     #bl-hero .hero-content.hero-full-image .text-overlay p {
         width: 800px;
+	color: #192e58;    
     }
 }
 
