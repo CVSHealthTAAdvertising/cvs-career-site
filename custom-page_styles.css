@@ -8708,6 +8708,18 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 
+#blog-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
+}
+
 #blog .lite-blue_bg {
     background: #b8e3eb;
 }
