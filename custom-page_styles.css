@@ -8681,93 +8681,73 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 	
 /* Blog Home Page */
 
-#blogtop-hero .hero-content.hero-full-image {
-  min-height: 425px;
-  position: relative;
-  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1464_residencies-hero.jpg)
-    20% center/cover no-repeat;
+#bl-hero .hero-content.hero-full-image {
+    min-height: 425px;
+    position: relative;
+    background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_3009_Indy_DC_Header_updated.jpg) 20% center/cover no-repeat
 }
+
 @media only screen and (max-width: 750px) {
-  #blogtop-hero .hero-content.hero-full-image {
-    min-height: 200px;
-  }
-  #blogtop-hero .hero-content.hero-full-image .text-overlay h1 {
-    padding-left: 0;
-  }
-  #blogtop-hero .hero-content.hero-full-image .text-overlay h1:before {
-    left: -16px !important;
-  }
+        #bl-hero .hero-content.hero-full-image {
+    min-height: 625px;
+    }
+    
+    #bl-hero .hero-content.hero-full-image .text-overlay h1 {
+        padding-left:30px;
+        width:350px;
+    }
+    
+    #bl-hero .hero-content.hero-full-image .text-overlay {
+        left:0px;
+        top:40px;
+    }
+    
+    #bl-hero .hero-content.hero-full-image .text-overlay h1:before {
+    left: 15px !important;
 }
-@media (min-width: 64rem) {
-  #blogtop-hero .hero-content.hero-full-image .text-overlay {
-    top: 60px;
-  }
+    
+    #bl-hero .hero-content.hero-full-image .mobile-hero {
+    display: inherit !important;
 }
-#blogtop-hero .hero-content.hero-full-image .text-overlay h1:before {
-  background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),
-    none;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  content: "";
-  height: 20px;
-  left: 6px;
-  position: absolute;
-  top: 10;
-  width: 20px;
 }
-#blogtop-hero .hero-content.hero-full-image .text-overlay h1 {
-  max-width: 450px;
+
+@media (min-width: 64rem){    
+    #bl-hero .hero-content.hero-full-image .text-overlay {
+        top:40px;
+        max-width: 550px;
+    }
+    
+    #bl-hero .hero-content.hero-full-image .text-overlay h1 {
+        max-width: 550px;
+    }
+    
+    #bl-hero .hero-content.hero-full-image .text-overlay p {
+        width: 500px;
+    }
 }
-#blogtop-hero .hero-content.hero-full-image .text-overlay {
-  max-width: 500px;
+
+#bl-hero .hero-content.hero-full-image .text-overlay h1:before {
+    background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 10;
+    width: 20px; 
 }
-@media only screen and (max-width: 750px) {
-  #blogtop-hero .hero-content.hero-full-image .text-overlay {
-    max-width: 300px;
-  }
-  #blogtop-hero .hero-content.hero-full-image {
-    min-height: 325px !important;
-  }
+
+#bl-hero .hero-content.hero-full-image .text-overlay h3 {
+    left: 25px;
+    position: relative;
+    margin-bottom: 0;
 }
-#blogtop-hero .hero-content.hero-full-image {
-  min-height: 325px;
-  position: relative;
-  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1648_home-slide-3-lg.jpg)
-    20% center/cover no-repeat;
+
+#bl-hero .hero-content.hero-full-image .text-overlay p {
+    top:10px
 }
-@media only screen and (max-width: 750px) {
-  #blogtop-hero .hero-content.hero-full-image {
-    min-height: 200px !important;
-  }
-  #blogtop-hero .hero-content.hero-full-image .text-overlay h1 {
-    padding-left: 0.25em;
-  }
-  #blogtop-hero .hero-content.hero-full-image .text-overlay h1:before {
-    left: -10px !important;
-  }
-  #blogtop-hero .hero-content.hero-full-image .text-overlay h1 {
-    max-width: 300px;
-  }
-}
-@media (min-width: 64rem) {
-  #blogtop-hero .hero-content.hero-full-image .text-overlay {
-    top: 100px;
-    width: 550px;
-  }
-  #blogtop-hero .hero-content.hero-full-image .text-overlay h1 {
-    width: 550px;
-    max-width: 550px;
-  }
-}
-#blogtop-hero .hero-content.hero-full-image .text-overlay h1:before {
-  background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),
-    none;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  content: "";
-  height: 20px;
-  left: 6px;
-  position: absolute;
-  top: 10;
-  width: 20px;
+
+#bl-hero .hero-content.hero-full-image .mobile-hero {
+    display: none;
 }
