@@ -8750,3 +8750,73 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #bl-hero .hero-content.hero-full-image .mobile-hero {
     display: none;
 }
+
+	
+	/* Menu */
+	
+.bl-menu {
+  background: #37baab;
+  padding: 20px 125px 0;
+  margin: 1em auto 0;
+}
+@media screen and (min-width: 800px) {
+  .bl-menu {
+    margin: 0 auto;
+    padding: 20px 175px 0;
+  }
+}
+@media screen and (min-width: 800px) {
+  .bl-menu ul {
+    text-align: center;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+.bl-menu li {
+  display: block;
+  font-size: 22px;
+}
+@media screen and (min-width: 550px) {
+  .bl-menu li {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .bl-menu li {
+    margin: 0 auto;
+  }
+}
+.bl-menu a.pharm-active {
+  border-bottom: 5px solid #c00;
+}
+.bl-menu a {
+  display: inline-block;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+@media screen and (min-width: 800px) {
+  .bl-menu a {
+    padding-bottom: 1em;
+    margin-bottom: 0;
+  }
+}
+	
