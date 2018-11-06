@@ -8683,9 +8683,9 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 /* Blog Home Page */
 
 #bl-hero .hero-content.hero-full-image {
-    min-height: 569px;
+    min-height: 425px;
     position: relative;
-    background: url(https://recruitstagep.smashfly.com/SmashFlyMedia/Images/14319/14319_723_hero-blog.png) 20% center/cover no-repeat
+    background: url(https://recruitstagep.smashfly.com/SmashFlyMedia/Images/14319/14319_707_hero-pt.jpg) 20% center/cover no-repeat
 }
 
 @media only screen and (max-width: 750px) {
@@ -8694,7 +8694,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     }
     
     #bl-hero .hero-content.hero-full-image .text-overlay h1 {
-        padding-left:0px;
+        padding-left:30px;
         width:350px;
     }
     
@@ -8722,7 +8722,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     }
     
     #bl-hero .hero-content.hero-full-image .text-overlay p {
-        width: 600px;
+        width: 500px;
     }
 }
 
@@ -8751,7 +8751,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #bl-hero .hero-content.hero-full-image .mobile-hero {
     display: none;
 }
-}
+
 	
 	/* Menu */
 	
@@ -8820,4 +8820,3 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     margin-bottom: 0;
   }
 }
-	
