@@ -8573,6 +8573,126 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     display: none;
 }
 
+/* Pharm Tech Video Section */
+
+.video-img img {
+  display: none;
+}
+.video-img .show-img {
+  display: inherit !important;
+  position: relative;
+  opacity: 1;
+  top: 0;
+}
+.video-img {
+  padding-top: 0;
+  background-color: transparent;
+}
+#pharmtech .youtubes {
+  margin-bottom: 0;
+}
+#pharmtech .white_bg {
+  padding: 0 1em !important;
+}
+#pharmtech .container {
+  align-items: center;
+  justify-content: center;
+}
+#pharmtech .item-1 {
+  padding: 0 !important;
+}
+#pharmtech .item-2 {
+  padding: 0 !important;
+  flex: 1;
+}
+@media only screen and (max-width: 750px) {
+  #pharmtech .item-2 {
+    order: 2;
+  }
+  #pharmtech .content-wrapper {
+    padding: 0 2em !important;
+  }
+}
+#pharmtech .image-container img {
+  width: 100%;
+  max-width: 100%;
+}
+#pharmtech .content-wrapper {
+  padding: 0 4em;
+}
+#pharmtech .content-wrapper p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 750px) {
+  #pharmtech .video-label {
+    display: none !important;
+  }
+}
+#pharmtech .video-link {
+  position: relative;
+  padding: 0 !important;
+  display: block;
+}
+#pharmtech .video-link:before {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  z-index: 5;
+  height: 45px;
+  margin-left: -23px;
+  margin-top: -23px;
+  width: 45px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transition: all 0.2s ease-in-out;
+}
+#pharmtech .video-link:after {
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transition: all 0.2s ease-in-out;
+  z-index: 5;
+  border: 11px solid transparent;
+  border-left: 16px solid white;
+  margin-left: -4px;
+  margin-top: -10px;
+}
+@media only screen and (min-width: 750px) {
+  #pharmtech .video-link:before {
+    height: 95px;
+    margin-left: -45px;
+    margin-top: -45px;
+    width: 95px;
+  }
+  #pharmtech .video-link:after {
+    border: 26px solid transparent;
+    border-left: 41px solid white;
+    margin-left: -12px;
+    margin-top: -22px;
+  }
+}
+#pharmtech .video-label {
+  display: block;
+  color: white;
+  left: 0;
+  margin: 0;
+  padding: 30% 2em 1em 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100% !important;
+  z-index: 2;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 900;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #000000 98%
+  );
+}
 
 	
 /* Blog Home Page */
