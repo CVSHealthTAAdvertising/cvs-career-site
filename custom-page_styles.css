@@ -8703,12 +8703,18 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   background: #003247;
   color: #fff;
 }
+#pt4boxes .purple_bg {
+  background: #93277e;
+  color: #fff;
+}
 #pt4boxes .lite-blue_bg.overview .content-wrapper,
+#pt4boxes .purple_bg.overview .content-wrapper,
 #pt4boxes .dark-blue_bg.overview .content-wrapper {
   padding: 4em;	
 }
 @media only screen and (max-width: 750px) {
   #pt4boxes .lite-blue_bg.overview .content-wrapper,
+  #pt4boxes .purple_bg.overview .content-wrapper,	
   #pt4boxes .dark-blue_bg.overview .content-wrapper {
     padding: 2em !important;
   }
