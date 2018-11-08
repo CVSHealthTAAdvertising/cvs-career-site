@@ -8753,8 +8753,300 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   line-height: 1.5;
 }
 
-
+/* Pharm Tech Carousel */
 	
+.bx-controls-direction {
+    float: right;
+    padding: 0 12px 12px 0;
+  }
+  .bx-controls-direction .bx-prev,
+  .bx-controls-direction .bx-next {
+    display: none;
+  }
+  @media (min-width: 37.5em) {
+    .bx-controls-direction .bx-prev,
+    .bx-controls-direction .bx-next {
+      display: inline-block;
+      background: #65219a;
+      color: #fff;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 50%;
+    }
+    .bx-controls-direction .bx-prev:hover,
+    .bx-controls-direction .bx-next:hover {
+      background: #8e34d3;
+    }
+  }
+  .bx-controls-direction .bx-prev {
+    position: absolute;
+    left: -2%;
+    top: 250px;
+  }
+  @media (max-width: 53.115em) {
+    .bx-controls-direction .bx-prev {
+      left: -3%;
+    }
+  }
+  .bx-controls-direction .bx-next {
+    position: absolute;
+    right: -2%;
+    top: 250px;
+  }
+  @media (max-width: 53.115em) {
+    .bx-controls-direction .bx-next {
+      right: -3%;
+    }
+  }
+  .view-content:after,
+  .view-content:before {
+    content: " ";
+    display: table;
+  }
+  .view-content:after {
+    clear: both;
+  }
+  .ds-layout:after,
+  .ds-layout:before {
+    content: " ";
+    display: table;
+  }
+  .ds-layout:after {
+    clear: both;
+  }
+  .ds-layout-landing-page .ds-layout-header,
+  .ds-layout-landing-page .ds-layout-main-content {
+    position: relative;
+  }
+  .slice-inner {
+    max-width: 962px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    background-color: #fff;
+  }
+  .slice-inner:after,
+  .slice-inner:before {
+    content: " ";
+    display: table;
+  }
+  .slice-inner:after {
+    clear: both;
+  }
+  .slice-content,
+  .slice-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .slice-content:after,
+  .slice-content:before,
+  .slice-header:after,
+  .slice-header:before {
+    content: " ";
+    display: table;
+  }
+  .slice-content:after,
+  .slice-header:after {
+    clear: both;
+  }
+  @media (min-width: 48em) {
+    .slice-content,
+    .slice-header {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+  @media (min-width: 60.125em) {
+    .slice-content,
+    .slice-header {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+  .slice-header + .slice-content {
+    padding-top: 24px;
+  }
+  @media (min-width: 48em) {
+    .slice-header + .slice-content {
+      padding-top: 30px;
+    }
+  }
+  .slice-content {
+    padding-bottom: 30px;
+  }
+  .field-slice--name {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  @media (min-width: 48em) {
+    .field-slice--name {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+  @media (min-width: 60.125em) {
+    .field-slice--name {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+  @media (min-width: 48em) {
+    .field-slice--name {
+      margin-left: -80px;
+      margin-right: -80px;
+    }
+  }
+  @media (min-width: 60.125em) {
+    .field-slice--name {
+      margin-left: -80px;
+      margin-right: -80px;
+    }
+  }
+  @media (min-width: 48em) {
+    .field-slice--name {
+      font-size: 30px;
+      font-size: 1.875rem;
+    }
+  }
+  .slice-header > .field-slice--name {
+    margin-bottom: 0;
+  }
+  .slice.display-option--grey-pattern .slice-inner {
+    background-image: url(https://www.ch2m.com/themes/ch2m/assets/images/grey-pattern-bg.png);
+    background-repeat: repeat;
+    color: #fff;
+  }
+  .slice.display-option--grey-pattern .slice-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .slice.display-option--grey-pattern .field-name-name {
+    font-size: 30px;
+    font-size: 1.875rem;
+    color: #fff;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    font-size: 0.75rem;
+    text-align: center;
+    transition: 0.2s ease all;
+  }
+  .btn:hover {
+    background-color: #262626;
+    text-decoration: none;
+  }
+  @media (min-width: 48em) {
+    .btn {
+      font-size: 14px;
+      font-size: 0.875rem;
+      padding: 12px 30px;
+    }
+  }
+  .btn,
+  .btn:hover {
+    text-decoration: none;
+  }
+  .btn--purple {
+    background-color: #65219a;
+    color: #fff !important;
+  }
+  .btn--purple:hover {
+    background-color: #8e34d4;
+  }
+  .card-carousel-wrap {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  @media (min-width: 48em) {
+    .card-carousel-wrap {
+      padding-right: 0;
+    }
+  }
+  .card-carousel {
+    width: 5000px;
+  }
+  .card-carousel:after,
+  .card-carousel:before {
+    content: " ";
+    display: table;
+  }
+  .card-carousel:after {
+    clear: both;
+  }
+  @media (min-width: 48em) {
+    .card-carousel {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .card-carousel li {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .card-carousel .node {
+      -webkit-flex: 1 100%;
+      -ms-flex: 1 100%;
+      flex: 1 100%;
+    }
+  }
+  .node--person-card {
+    padding: 24px;
+    max-width: 277px;
+    height: 100%;
+    background: #fff;
+    color: #000;
+  }
+  .node--person-card p {
+    font-family: "Guardian Sans Light", Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .node--person-card blockquote {
+    font-size: 15px;
+  }
+  .node--person-card blockquote:before {
+    display: none;
+  }
+  .node--person-card .btn {
+    padding: 12px 20px;
+    min-width: 166px;
+  }
+  .node--person-card .field-type-image {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+  }
+  .node--person-card .field-name-field-field-occupation {
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+  .person-card__name {
+    font-family: "Guardian Sans Bold", Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+  }
+  .node--person a {
+    color: #ea7502;
+  }
+  @media (max-width: 63.99em) {
+    .slice.display-option--grey-pattern .slice-inner {
+      margin-right: 4%;
+      margin-left: 4%;
+    }
+  }
+}
+
 /* Blog Home Page */
 
 #bl-hero .hero-content.hero-full-image {
