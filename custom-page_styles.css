@@ -8694,6 +8694,52 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   );
 }
 
+/* Pharm Tech 4 Boxes Section */
+
+#pt4boxes .lite-blue_bg {
+  background: #b8e3eb;
+}
+#pt4boxes .dark-blue_bg {
+  background: #003247;
+  color: #fff;
+}
+#pt4boxest .lite-blue_bg.overview .content-wrapper,
+#pt4boxes .dark-blue_bg.overview .content-wrapper {
+  padding: 4em;
+}
+@media only screen and (max-width: 750px) {
+  #pt4boxes .lite-blue_bg.overview .content-wrapper,
+  #pt4boxes .dark-blue_bg.overview .content-wrapper {
+    padding: 2em !important;
+  }
+}
+#pt4boxes .container {
+  align-items: center;
+  justify-content: center;
+}
+#pt4boxes .item-1 {
+  padding: 0 !important;
+}
+#pt4boxes .item-2 {
+  padding: 0 !important;
+  flex: 1;
+}
+@media only screen and (max-width: 750px) {
+  #pt4boxes .item-2 {
+    order: 2;
+  }
+  #pt4boxes .content-wrapper {
+    padding: 0 2em !important;
+  }
+}
+#pt4boxes .content-wrapper {
+  padding: 0 4em;
+}
+#pt4boxes .content-wrapper p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 	
 /* Blog Home Page */
 
