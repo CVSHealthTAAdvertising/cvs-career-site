@@ -8736,6 +8736,13 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   padding: 0 !important;
   flex: 1;
 }
+#pt4boxes .item-3 {
+  padding: 0 !important;
+}
+#pt4boxes .item-4 {
+  padding: 0 !important;
+  flex: 1;
+}
 @media only screen and (max-width: 750px) {
   #pt4boxes .item-2 {
     order: 2;
