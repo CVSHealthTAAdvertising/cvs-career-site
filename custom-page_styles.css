@@ -8706,6 +8706,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #pt4boxes .lite-blue_bg.overview .content-wrapper,
 #pt4boxes .dark-blue_bg.overview .content-wrapper {
   padding: 4em;
+  display: inline-block;
+  vertical-align: top;	
 }
 @media only screen and (max-width: 750px) {
   #pt4boxes .lite-blue_bg.overview .content-wrapper,
