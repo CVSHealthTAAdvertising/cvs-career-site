@@ -8878,7 +8878,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     margin: 0 auto;
   }
 }
-.bl-menu a.pharm-active {
+.bl-menu a.bl-active {
   border-bottom: 5px solid #c00;
 }
 .bl-menu a {
