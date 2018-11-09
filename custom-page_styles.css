@@ -8726,7 +8726,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   }
 }
 #pt4boxes .container {
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
 }
 #pt4boxes .item-1 {
