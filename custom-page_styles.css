@@ -8788,7 +8788,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   text-align: left;
 }
 .espotlight .content-wrapper p {
-  text-align: left;
+  text-align: center;
   width: calc(100% - 16px);
 }
 #espotlight .body-copy a{color:#c00;}
