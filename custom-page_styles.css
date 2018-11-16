@@ -8792,7 +8792,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   width: calc(100% - 16px);
 }
 #espotlight .body-copy a{color:#c00;}
-.e-home-content a{text-decoration:underline; text-align:left;
+.e-home-content a{text-decoration:underline;
 }
 
 /* Pharm Tech text above sprite graphic Section */
