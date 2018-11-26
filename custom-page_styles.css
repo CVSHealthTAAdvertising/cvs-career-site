@@ -8795,6 +8795,25 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 .e-home-content a{text-decoration:underline;
 }
 
+/* Employee Spotlight Accordion */
+
+  .one_question {
+    padding-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    width:100%;
+    }
+    .two_answer_container {
+    height: 0px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    padding: 0px;
+    overflow: hidden;
+    display: inline-block;
+    }
+    }
+
 /* Pharm Tech text above sprite graphic Section */
 
 #pt {
