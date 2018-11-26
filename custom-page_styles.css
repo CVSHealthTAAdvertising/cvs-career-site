@@ -8509,7 +8509,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 @media only screen and (max-width: 750px) {
         #pt-hero .hero-content.hero-full-image {
-    min-height: 825px;
+    min-height: 425px;
     }
     
     #pt-hero .hero-content.hero-full-image .text-overlay h1 {
