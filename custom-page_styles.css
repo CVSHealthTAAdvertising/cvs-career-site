@@ -8533,7 +8533,6 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 @media (min-width: 64rem){    
     #pt-hero .hero-content.hero-full-image .text-overlay {
-        top:40px;
         max-width: 550px;
     }
     
