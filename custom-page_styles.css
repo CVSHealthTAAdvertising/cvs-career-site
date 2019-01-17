@@ -2034,6 +2034,8 @@ top: 0px;
 
 #wfi-hero2 .hero-content.hero-full-image .text-overlay p.name {
     font-size: 1em;
+    max-width: 625px;
+	
 }
 
 #wfi-hero2 .hero-content.hero-full-image .mobile-hero {
