@@ -8951,51 +8951,51 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 /* New Retail Page 2019*/
 
-#pt-hero .hero-content.hero-full-image {
+#rt-hero .hero-content.hero-full-image {
     min-height: 425px;
     position: relative;
     background: url(https://recruitstagep.smashfly.com/SmashFlyMedia/Images/14319/14319_707_hero-pt.jpg) 20% center/cover no-repeat
 }
 
 @media only screen and (max-width: 750px) {
-        #pt-hero .hero-content.hero-full-image {
+        #rt-hero .hero-content.hero-full-image {
     min-height: 425px;
     }
     
-    #pt-hero .hero-content.hero-full-image .text-overlay h1 {
+    #rt-hero .hero-content.hero-full-image .text-overlay h1 {
         padding-left:30px;
     
         width:350px;
     }
     
-    #pt-hero .hero-content.hero-full-image .text-overlay {
+    #rt-hero .hero-content.hero-full-image .text-overlay {
         left:0px;
     }
     
-    #pt-hero .hero-content.hero-full-image .text-overlay h1:before {
+    #rt-hero .hero-content.hero-full-image .text-overlay h1:before {
     left: 15px !important;
 }
     
-    #pt-hero .hero-content.hero-full-image .mobile-hero {
+    #rt-hero .hero-content.hero-full-image .mobile-hero {
     display: inherit !important;
 }
 }
 
 @media (min-width: 64rem){    
-    #pt-hero .hero-content.hero-full-image .text-overlay {
+    #rt-hero .hero-content.hero-full-image .text-overlay {
         max-width: 550px;
     }
     
-    #pt-hero .hero-content.hero-full-image .text-overlay h1 {
+    #rt-hero .hero-content.hero-full-image .text-overlay h1 {
         max-width: 550px;
     }
     
-    #pt-hero .hero-content.hero-full-image .text-overlay p {
+    #rt-hero .hero-content.hero-full-image .text-overlay p {
         width: 500px;
     }
 }
 
-#pt-hero .hero-content.hero-full-image .text-overlay h1:before {
+#rt-hero .hero-content.hero-full-image .text-overlay h1:before {
     background-image: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1476_flipped_heart.png),none;
     background-size: 20px;
     background-repeat: no-repeat;
@@ -9007,21 +9007,21 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     width: 20px; 
 }
 
-#pt-hero .hero-content.hero-full-image .text-overlay h3 {
+#rt-hero .hero-content.hero-full-image .text-overlay h3 {
     left: 25px;
     position: relative;
     margin-bottom: 0;
 }
 
-#pt-hero .hero-content.hero-full-image .text-overlay p {
+#rt-hero .hero-content.hero-full-image .text-overlay p {
     top:10px
 }
 
-#pt-hero .hero-content.hero-full-image .mobile-hero {
+#rt-hero .hero-content.hero-full-image .mobile-hero {
     display: none;
 }
 
-/* Pharm Tech Video Section */
+/* New Retail 2019 Video Section */
 
 .video-img img {
   display: none;
@@ -9036,53 +9036,53 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   padding-top: 0;
   background-color: transparent;
 }
-#pharmtech .youtubes {
+#rt .youtubes {
   margin-bottom: 0;
 }
-#pharmtech .white_bg {
+#rt .white_bg {
   padding: 0 1em !important;
 }
-#pharmtech .container {
+#rt .container {
   align-items: center;
   justify-content: center;
 }
-#pharmtech .item-1 {
+#rt .item-1 {
   padding: 0 !important;
 }
-#pharmtech .item-2 {
+#rt .item-2 {
   padding: 0 !important;
   flex: 1;
 }
 @media only screen and (max-width: 750px) {
-  #pharmtech .item-2 {
+  #rt .item-2 {
     order: 2;
   }
-  #pharmtech .content-wrapper {
+  #rt .content-wrapper {
     padding: 0 2em !important;
   }
 }
-#pharmtech .image-container img {
+#rt .image-container img {
   width: 100%;
   max-width: 100%;
 }
-#pharmtech .content-wrapper {
+#rt .content-wrapper {
   padding: 0 4em;
 }
-#pharmtech .content-wrapper p {
+#rt .content-wrapper p {
   font-weight: 300;
   line-height: 1.5;
 }
 @media only screen and (max-width: 750px) {
-  #pharmtech .video-label {
+  #rt .video-label {
     display: none !important;
   }
 }
-#pharmtech .video-link {
+#rt .video-link {
   position: relative;
   padding: 0 !important;
   display: block;
 }
-#pharmtech .video-link:before {
+#rt .video-link:before {
   border-radius: 50%;
   border: 2px solid #fff;
   z-index: 5;
@@ -9096,7 +9096,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   top: 50%;
   transition: all 0.2s ease-in-out;
 }
-#pharmtech .video-link:after {
+#rt .video-link:after {
   content: "";
   left: 50%;
   position: absolute;
@@ -9109,20 +9109,20 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   margin-top: -10px;
 }
 @media only screen and (min-width: 750px) {
-  #pharmtech .video-link:before {
+  #rt .video-link:before {
     height: 95px;
     margin-left: -45px;
     margin-top: -45px;
     width: 95px;
   }
-  #pharmtech .video-link:after {
+  #rt .video-link:after {
     border: 26px solid transparent;
     border-left: 41px solid white;
     margin-left: -12px;
     margin-top: -22px;
   }
 }
-#pharmtech .video-label {
+#rt .video-label {
   display: block;
   color: white;
   left: 0;
@@ -9142,66 +9142,66 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   );
 }
 
-/* Pharm Tech 4 Boxes Section */
+/* New Retail 2019 4 Boxes Section */
 
-#pt4boxes .lite-blue_bg {
+#rt4boxes .lite-blue_bg {
   background: #b8e3eb;
 }
-#pt4boxes .dark-blue_bg {
+#rt4boxes .dark-blue_bg {
   background: #003247;
   color: #fff;
 }
-#pt4boxes .purple_bg {
+#rt4boxes .purple_bg {
   background: #93277e;
   color: #fff;
 }
-#pt4boxes .orange_bg {
+#rt4boxes .orange_bg {
   background: #cb6500;
   color: #fff;
 }
-#pt4boxes .lite-blue_bg.overview .content-wrapper,
-#pt4boxes .purple_bg.overview .content-wrapper,
-#pt4boxes .orange_bg.overview .content-wrapper,
-#pt4boxes .dark-blue_bg.overview .content-wrapper {
+#rt4boxes .lite-blue_bg.overview .content-wrapper,
+#rt4boxes .purple_bg.overview .content-wrapper,
+#rt4boxes .orange_bg.overview .content-wrapper,
+#rt4boxes .dark-blue_bg.overview .content-wrapper {
   padding: 4em;	
 }
 @media only screen and (max-width: 750px) {
-  #pt4boxes .lite-blue_bg.overview .content-wrapper,
-  #pt4boxes .purple_bg.overview .content-wrapper,
-  #pt4boxes .orange_bg.overview .content-wrapper,	
-  #pt4boxes .dark-blue_bg.overview .content-wrapper {
+  #rt4boxes .lite-blue_bg.overview .content-wrapper,
+  #rt4boxes .purple_bg.overview .content-wrapper,
+  #rt4boxes .orange_bg.overview .content-wrapper,	
+  #rt4boxes .dark-blue_bg.overview .content-wrapper {
     padding: 2em !important;
   }
 }
-#pt4boxes .container {
+#rt4boxes .container {
   align-items: stretch;
   justify-content: center;
 }
-#pt4boxes .item-1 {
+#rt4boxes .item-1 {
   padding: 0 !important;
 }
-#pt4boxes .item-2 {
+#rt4boxes .item-2 {
   padding: 0 !important;
   flex: 1;
 }
 
 @media only screen and (max-width: 750px) {
-  #pt4boxes .item-2 {
+  #rt4boxes .item-2 {
     order: 2;
   }
-  #pt4boxes .content-wrapper {
+  #rt4boxes .content-wrapper {
     padding: 0 2em !important;
   }
 }
-#pt4boxes .content-wrapper {
+#rt4boxes .content-wrapper {
   padding: 0 4em;
 }
-#pt4boxes .content-wrapper p {
+#rt4boxes .content-wrapper p {
   font-weight: 300;
   line-height: 1.5;
 }
 
-/* Pharm Tech Employee Spotlight Section */
+/* New Retail 2019 Employee Spotlight Section */
 
 .espotlight {
   padding: 2em;
@@ -9233,7 +9233,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 .e-home-content a{text-decoration:underline;
 }
 
-/* Employee Spotlight Accordion */
+/* New Retail 2019 Employee Spotlight Accordion */
 
   .one_question {
     padding: 0 15px;
@@ -9251,8 +9251,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
     display: inline-block;
     }
 
-/* Pharm Tech text above sprite graphic Section */
+/* New Retail 2019 text above sprite graphic Section */
 
-#pt {
+#rt {
   background: #cfcccb;
 }
