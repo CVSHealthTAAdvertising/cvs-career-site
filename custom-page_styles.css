@@ -9068,10 +9068,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #rt .content-wrapper {
   padding: 0 4em;
 }
-#rt .content-wrapper p {
-  font-weight: 300;
-  line-height: 1.5;
-}
+
 @media only screen and (max-width: 750px) {
   #rt .video-label {
     display: none !important;
