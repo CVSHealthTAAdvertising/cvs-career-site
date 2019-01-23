@@ -9044,7 +9044,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 #rt .container {
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 #rt .item-1 {
   padding: 0 !important;
