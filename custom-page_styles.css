@@ -9273,7 +9273,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: sub;
-  margin: 0 5px;
+  margin: 5px 0 5px;
 }
 .py-5 {
   padding-top: 3.75rem !important;
