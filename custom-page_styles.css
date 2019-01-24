@@ -9251,5 +9251,10 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 /* New Retail 2019 text above sprite graphic Section */
 
 #rt {
-  background: #ffffff;
+  background: #fff;
+}
+
+#rt .body-copy {
+    background: #fff;
+    padding: 32px;
 }
