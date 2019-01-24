@@ -9256,29 +9256,30 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 
 /* New Retail 2019 Red Bar */
 
-#retailnew.text-callout {
-   background: #c00;
+#retailnew.text-callout {
+  background: #c00;
+}
+@media only screen and (min-width: 750px) {
+  #retailnew.text-callout .icon {
+    width: 54px !important;
+    height: 73px !important;
+  }
+}
+#retailnew.text-callout .icon {
+  width: 27px;
+  height: 37px;
+  background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1673_pharm_icon.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: sub;
+  margin: 0 5px;
+}
+.py-5 {
+  padding-top: �3.75rem !important;
+  padding-bottom: �3.75rem !important;
+}
+.text-callout {
+  color: �#FFF;
 }
 
-.py-5 {
-   padding-top: 3.75rem !important;
-   padding-bottom: 3.75rem !important;
-}
-
-.text-callout {
-    color: #FFF;
-}
-
-#retailnew.text-callout .icon
-   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1673_pharm_icon.png);
-   display: inline-block;
-   background-repeat: no-repeat;
-   background-size: contain;
-   vertical-align: sub;
-   margin: 0 5px;
-
-@media only screen and (min-width: 750px)
-#retailnew.text-callout .icon {
-   width: 54px !important;
-   height: 73px !important;
-}
