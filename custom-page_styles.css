@@ -9254,4 +9254,17 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   background: #fff;
 }
 
+/* New Retail 2019 Red Bar */
 
+#retailnew.text-callout {
+   background: #c00;
+}
+
+.py-5 {
+   padding-top: 3.75rem !important;
+   padding-bottom: 3.75rem !important;
+}
+
+.text-callout {
+    color: #FFF;
+}
