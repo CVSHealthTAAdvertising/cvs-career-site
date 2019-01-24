@@ -9268,3 +9268,17 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 .text-callout {
     color: #FFF;
 }
+
+#retailnew.text-callout .icon
+   background: url(https://recruit.smashfly.com/SmashFlyMedia/Images/14319/14319_1673_pharm_icon.png);
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-size: contain;
+   vertical-align: sub;
+   margin: 0 5px;
+
+@media only screen and (min-width: 750px)
+#retailnew.text-callout .icon {
+   width: 54px !important;
+   height: 73px !important;
+}
