@@ -9283,3 +9283,8 @@ ul.quick-facts li::before, ul.nine-cities li::before {
   color: #FFF;
 }
 
+/* New Retail 2019 sprite background */
+
+#rt {
+  background: #fff;
+}
