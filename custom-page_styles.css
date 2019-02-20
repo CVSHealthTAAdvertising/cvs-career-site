@@ -9298,7 +9298,7 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 }
 
 @media only screen and (max-width: 750px) {
-        #benefits-hero .hero-content.hero-full-image {
+        #summerlin-hero .hero-content.hero-full-image {
     min-height: 625px;
     }
     
