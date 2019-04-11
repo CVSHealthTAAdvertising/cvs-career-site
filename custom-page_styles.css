@@ -9432,10 +9432,130 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 background: rgb(255, 255, 255); padding: 32px;
 }
 
-.mb-3 {
-margin-bottom: 1.25rem !important;
+@media only screen and (min-width: 750px) {
+    #veteranselfid .first {
+        padding-left: 0 !important;
+    }
+
+    #veteranselfid .second {
+        padding-right: 0 !important;
+    }
+    
+    #veteranselfid .full-width {
+        padding: 0 !important;
+    }
+    
+    #corporate .full-width {
+        padding: 0 !important;
+    }
 }
 
-.mt-3 {
-margin-top: 1.25rem !important;
+#veteranselfid .color-box-teal {
+    background-color: #37baab;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+}
+
+#veteranselfid .color-box-orange {
+    background-color: #ea7600;
+    color: #fff;
+    margin: 0 0 32px;
+    float: left;
+}
+
+#veteranselfid .color-box-teal>div.content-wrapper, #veteranselfid .color-box-orange>div.content-wrapper {
+    float: right;
+    padding: 32px 32px 0 0;
+    width: calc(64% - 32px);
+    min-height: 225px;
+}
+
+#veteranselfid .color-box-teal .content-wrapper h3, #veteranselfid .color-box-orange .content-wrapper h3 {
+     font-size: 1.75em;
+     line-height: 1.25em;
+}
+
+#veteranselfid .color-box-teal>div.image-wrapper {
+    float: left;
+    padding: 2px;
+    width: 36%;
+    position: relative;
+}
+
+#veteranselfid .color-box-orange>div.image-wrapper {
+    float: left;
+    padding: 2px 2px 2px 20px;
+    width: 36%;
+    position: relative;
+}
+
+#veteranselfid .color-box-teal .content-wrapper a, #veteranselfid .color-box-orange .content-wrapper a {
+    color: #fff;
+}
+
+#veteranselfid .color-box-teal .content-wrapper a:hover, #veteranselfid .color-box-orange .content-wrapper a:hover {
+    text-decoration: underline;
+}
+
+#veteranselfid .color-box-teal .image-wrapper {
+    padding-top:35px !important;
+}
+
+#veteranselfid .color-box-orange .image-wrapper {
+    padding-top: 50px !important;
+}
+
+#veteranselfid .color-box-teal .image-wrapper img, #veteranselfid .color-box-orange .image-wrapper img  {
+    width: 100%;
+}
+
+#veteranselfid .related-content {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+
+#veteranselfid .related-content .related-content-img-wrap {
+    width: 35%;
+    float: left;
+}
+
+@media only screen and (max-width: 750px) {
+    #veteranselfid .related-content .related-content-img-wrap {
+        width: 100% !important;
+    }
+    #veteranselfid .related-content .related-content-link-wrap {
+        width: 100% !important;
+        padding-top: 0 !important;
+    }
+}
+
+#veteranselfid .related-content .related-content-img-wrap img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#veteranselfid .related-content .related-content-link-wrap {
+    display: inline-block;
+    width: calc(65% - 64px);
+    padding: 40px 32px 0 32px;
+}
+
+#veteranselfid .related-content .related-content-link-wrap h4 {
+    font-size: 1.75em;
+    line-height: 1em;
+}
+
+#veteranselfid .related-content .related-content-link-wrap p {
+    color: #646464;
+}
+
+#veteranselfid .related-content .related-content-link-wrap a {
+    color:#c00;
+}
+
+#veteranselfid .related-content .related-content-link-wrap a:hover {
+    text-decoration: underline;
 }
