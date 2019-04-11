@@ -9427,3 +9427,15 @@ ul.quick-facts li::before, ul.nine-cities li::before {
 #veteranselfid .body-copy a:hover {
     text-decoration: underline;
 }
+
+#veteranselfid .body-copy {
+background: rgb(255, 255, 255); padding: 32px;
+}
+
+.mb-3 {
+margin-bottom: 1.25rem !important;
+}
+
+.mt-3 {
+margin-top: 1.25rem !important;
+}
