@@ -3069,7 +3069,7 @@ top: 0px;
 }
 
 #military .military-profiles ul {
-    width: 40%;
+    width: 80%;
     margin: 0 auto;
     list-style: none;
     text-align: center;
@@ -3098,6 +3098,14 @@ top: 0px;
 @media screen and (min-width: 800px) {
 #military .military-profiles.six ul>li {
     width: 28% !important;
+    margin:0 auto 20px;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 800px) {
+#military .military-profiles.four ul>li {
+    width: 8% !important;
     margin:0 auto 20px;
     text-align: center;
 }
